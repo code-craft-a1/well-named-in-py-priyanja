@@ -1,4 +1,4 @@
-from config,colorPair_number_mapping,color_tests import * 
+from color_tests import *
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
