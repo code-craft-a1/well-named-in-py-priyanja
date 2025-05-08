@@ -1,4 +1,5 @@
 from color_tests import *
+from referenceManualUtils import * 
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
@@ -7,3 +8,4 @@ if __name__ == '__main__':
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
   print('Done :)')
+  print_reference_manual()
